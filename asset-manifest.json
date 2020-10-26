@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/React-Deploy/static/css/main.21b8a4b3.chunk.css",
+    "main.js": "/React-Deploy/static/js/main.3c0cbf96.chunk.js",
+    "main.js.map": "/React-Deploy/static/js/main.3c0cbf96.chunk.js.map",
+    "runtime-main.js": "/React-Deploy/static/js/runtime-main.85e693fa.js",
+    "runtime-main.js.map": "/React-Deploy/static/js/runtime-main.85e693fa.js.map",
+    "static/css/2.8943d9a7.chunk.css": "/React-Deploy/static/css/2.8943d9a7.chunk.css",
+    "static/js/2.bcb8ab9a.chunk.js": "/React-Deploy/static/js/2.bcb8ab9a.chunk.js",
+    "static/js/2.bcb8ab9a.chunk.js.map": "/React-Deploy/static/js/2.bcb8ab9a.chunk.js.map",
+    "index.html": "/React-Deploy/index.html",
+    "static/css/2.8943d9a7.chunk.css.map": "/React-Deploy/static/css/2.8943d9a7.chunk.css.map",
+    "static/css/main.21b8a4b3.chunk.css.map": "/React-Deploy/static/css/main.21b8a4b3.chunk.css.map",
+    "static/js/2.bcb8ab9a.chunk.js.LICENSE.txt": "/React-Deploy/static/js/2.bcb8ab9a.chunk.js.LICENSE.txt",
+    "static/media/Drew Bradford Resume.1540a24d.pdf": "/React-Deploy/static/media/Drew Bradford Resume.1540a24d.pdf",
+    "static/media/Drew Headshot.52a71fbb.jpg": "/React-Deploy/static/media/Drew Headshot.52a71fbb.jpg",
+    "static/media/GitHub_Logo_White.6149aa5c.png": "/React-Deploy/static/media/GitHub_Logo_White.6149aa5c.png",
+    "static/media/HighorLow img.24d6a8dd.png": "/React-Deploy/static/media/HighorLow img.24d6a8dd.png",
+    "static/media/JS-Drum-Kit img.56393f03.png": "/React-Deploy/static/media/JS-Drum-Kit img.56393f03.png",
+    "static/media/Octocat.363cb5ed.png": "/React-Deploy/static/media/Octocat.363cb5ed.png",
+    "static/media/PartyPlanner.f924f0a8.png": "/React-Deploy/static/media/PartyPlanner.f924f0a8.png",
+    "static/media/TicTacToe.eb8f5383.png": "/React-Deploy/static/media/TicTacToe.eb8f5383.png",
+    "static/media/icon_HTML.b10ea256.png": "/React-Deploy/static/media/icon_HTML.b10ea256.png",
+    "static/media/icon_Rails.c1bcb909.png": "/React-Deploy/static/media/icon_Rails.c1bcb909.png",
+    "static/media/icon_javascript.b8eabfa0.png": "/React-Deploy/static/media/icon_javascript.b8eabfa0.png",
+    "static/media/icon_react.fcd0c729.png": "/React-Deploy/static/media/icon_react.fcd0c729.png",
+    "static/media/icon_ruby.1ac35e92.png": "/React-Deploy/static/media/icon_ruby.1ac35e92.png",
+    "static/media/jest.f7d8d7b7.png": "/React-Deploy/static/media/jest.f7d8d7b7.png",
+    "static/media/postgresql.68c6452e.png": "/React-Deploy/static/media/postgresql.68c6452e.png",
+    "static/media/rspec_icon.28cc4603.png": "/React-Deploy/static/media/rspec_icon.28cc4603.png",
+    "static/media/warzonePlunder img.d5371d63.png": "/React-Deploy/static/media/warzonePlunder img.d5371d63.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.85e693fa.js",
+    "static/css/2.8943d9a7.chunk.css",
+    "static/js/2.bcb8ab9a.chunk.js",
+    "static/css/main.21b8a4b3.chunk.css",
+    "static/js/main.3c0cbf96.chunk.js"
+  ]
+}
