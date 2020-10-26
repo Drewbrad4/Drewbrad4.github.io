@@ -1,38 +1,501 @@
-.App {
-  text-align: center;
+.app {
+    background: radial-gradient(circle, rgba(53,53,53,1) 0%, rgba(34,33,33,1) 100%);
+    font-family: 'Raleway', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body, html {
+    height: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/********************************************** NAVBAR CSS */
+
+.bg-color {
+    font-size: 1.8rem;
+    color: whitesmoke;
+    font-family: 'Raleway', sans-serif;
+    z-index: 9999;
+    background-color:rgba(55,55,55,0.2);
+    background-color:rgba(40, 75, 99, 0.4);
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    margin-right: 5%;
+    align-content: space-between;
+}
+
+/********************************************** TITLE CSS */
+#title {
+    font-size: 5.5rem;
+}
+
+#descrip {
+    font-size: 3.2rem;
+}
+
+.title-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 15%;
+    text-shadow: 2px 2px 2px black;
+}
+
+.title {
+    background-size: cover;
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.links {
+    border-top: 4px solid black;
+}
+
+.link {
+    margin: 1rem;
+    font-size: 2.2rem;
+    transition-duration: 0.5s;
+    color: white;
+}
+
+.link:hover {
+    color: #3C6E71;
+    text-decoration: none;
+}
+
+
+/********************************************** ABOUT ME CSS */
+
+#about {
+    display: flex;
+    flex-direction: row;
+    margin: 5rem;
+    background-color: rgba(70, 70, 70, 0.8);
+    padding: 4.2rem;
+    border-radius: 1rem;
+    box-shadow: -3px -3px #284B63;
+}
+
+.text-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: 0.5rem;
+}
+
+.about-text {
+    font-size: 1.5rem;
+}
+
+.headshot {
+    width: 70%;
+    height: 55%;
+    margin-top: 125px;
+    border-radius: 15px; 
+    box-shadow: 5px 5px 5px #3C6E71;
+}
+
+.mini-icon {
+    width: 115px;
+    height: 85px;
+    margin: 10px;
+    margin-bottom: 5px;
+}
+
+.github-icon {
+    width: 120px;
+    height: 85px;
+    margin: 10px;
+    margin-bottom: 5px;
+}
+
+.LI-profile-badge {
+    margin: 2rem;
+}
+
+.mini-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 150px;
+}
+
+.bottom-about {
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+#resumeButton {
+    font-size: 2.2rem;
+    padding: 0.6rem;
+    transition: 1.5s;
+}
+
+#resumeButton:hover {
+    font-size: 2.2rem;
+    padding: 0.6rem;
+    background-color: #3C6E71;
+    transform: scale(1.1);
+}
+
+/********************************************** MODAL */
+
+.modal-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/********************************************** PROJECTS CSS */
+
+.header {
+    text-align: center;
+    color: white;
+    font-size: 4.2rem;
+    margin: 1.5rem;
+}
+
+.card {
+    width: 24vw;
+    min-height: 425px;
+    height: 50vh;
+    margin: 1.5rem;
+    box-shadow: 5px 5px 5px #3C6E71;
+}
+
+.card-img {
+    min-height: 235px;
+    height: 28vh;
+}
+
+.card-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card-title {
+    font-size: 1.4rem;
+}
+
+.card-subtitle {
+    font-size: 1.2rem;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+.badge {
+    margin: 0.4rem;
+}
+
+/********************************************** SKILLS CSS */
+
+#skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.skills-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #707070;
+    width: 75vw;
+    padding: 1.5rem;
+    border-radius: 1.2rem;
+    box-shadow: -3px -3px #284B63;
+}
+
+.skill-box {
+    text-align: center;
+    color: black;
+}
+
+.skill-box:hover {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.mini-skill-box {
+    display: flex;
+}
+
+.skill-header {
+    text-align: center;
+    color: white;
+    font-size: 2.2rem;
+    margin: 1.5rem;
+}
+
+.icon-special {
+    width: 155px;
+    height: 155px;
+    margin: 1.2rem;
+}
+
+.icon {
+    width: 200px;
+    height: 200px;
+}
+
+/********************************************** CONTACT CSS */
+#contact {
+    text-align: center;
+    color: white;
+}
+
+.form {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+#text {
+    width: 30vw;
+    height: 22vh;
+}
+
+#name, #email {
+    width: 20vw;
+    height: 5vh;
+}
+
+label {
+    font-size: 1.5rem;
+}
+
+#contactButton {
+    font-size: 1.6rem;
+    padding: 0.6rem;
+}
+
+/********************************************** RESPONSIVITY */
+
+  /* Medium Devices, Desktops */
+  @media only screen and (max-width : 992px) {
+    #title {
+        font-size: 4.8rem;
+    }
+    
+    #descrip {
+        font-size: 2.8rem;
+    }
+    
+    .link {
+        font-size: 1.8rem;
+    }
+
+    #about {
+        flex-direction: column;
+    }
+
+    .mini-links {
+        margin-left: 9rem;
+    }
+
+    .LI-simple-link {
+        text-align: left;
+    }
+
+    .headshot {
+        margin-top: 0.5rem;
+        margin-left: 5rem;
+    }
+
+    .card {
+        width: 33vw;
+        height: 45vh;
+    }
+
+    .card-img {
+        height: 235px;
+    }
+  
+    .card-title {
+      font-size: 1.2rem;
+    }
+  
+    .card-subtitle {
+        font-size: 1rem;
+    }
+  
+    .card-text {
+        margin-top: 1rem;
+        font-size: 0.9rem;
+    }
+
+    #text {
+        width: 50vw;
+        height: 20vh;
+    }
+    
+    #name, #email {
+        width: 25vw;
+        height: 5vh;
+    }
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  /* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    #title {
+        font-size: 4.8rem;
+    }
+    
+    #descrip {
+        font-size: 2.8rem;
+    }
+    
+    .link {
+        font-size: 1.8rem;
+    }
 
-.App-link {
-  color: #61dafb;
-}
+    #about {
+        flex-direction: column;
+    }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+    .mini-links {
+        margin-left: 9rem;
+    }
+
+    .headshot {
+        margin-top: 0.5rem;
+        margin-left: 3.2rem;
+    }
+
+    .card {
+        width: 35vw;
+        height: 45vh;
+    }
+
+    .card-img {
+        height: 235px;
+    }
+  
+    .card-title {
+      font-size: 1.2rem;
+    }
+  
+    .card-subtitle {
+        font-size: 0.6rem;
+    }
+  
+    .card-text {
+        margin-top: 1rem;
+        font-size: 0.9rem;
+    }
+
+    #text {
+        width: 50vw;
+        height: 20vh;
+    }
+    
+    #name, #email {
+        width: 25vw;
+        height: 5vh;
+    }
   }
-  to {
-    transform: rotate(360deg);
+
+  /* Phone Devices */
+@media only screen and (max-width : 375px) {
+    #title {
+        font-size: 3rem;
+    }
+    
+    #descrip {
+        font-size: 1.6rem;
+    }
+    
+    .link {
+        font-size: 1rem;
+        width: 62px;
+        margin-right: 0.5rem;
+    }
+
+    #about {
+        flex-direction: column;
+        width: 70vw;
+        justify-content: center;
+    }
+
+    .mini-links {
+        margin-left: 3.8rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .headshot {
+        width: 175px;
+        margin-left: -1.7rem;
+        margin-right: 10rem;
+    }
+
+    .about-text {
+        font-size: 1.3rem;
+        width: 65vw;
+    }
+
+    .bottom-about {
+        width: 65vw;
+        font-size: 1.3rem;
+    }
+
+    .card {
+        width: 65vw;
+        height: 45vh;
+    }
+
+    .card-img {
+        height: 235px;
+    }
+  
+    .card-title {
+      font-size: 1.2rem;
+    }
+  
+    .card-subtitle {
+        font-size: 0.6rem;
+    }
+  
+    .card-text {
+        margin-top: 1rem;
+        font-size: 0.9rem;
+    }
+
+    .mini-skill-box {
+        flex-direction: column;
+    }
+
+    #text {
+        width: 65vw;
+        height: 20vh;
+    }
+    
+    #name, #email {
+        width: 45vw;
+        height: 5vh;
+        margin-left: 4rem;
+
+    }
   }
-}
+
+
+
+
