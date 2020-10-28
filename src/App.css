@@ -187,8 +187,17 @@ body, html {
     font-size: 1.4rem;
 }
 
+.card-title-link {
+    color: black;
+}
+
+.card-title-link:hover {
+    color: #3C6E71;
+    text-decoration: none;
+}
+
 .card-subtitle {
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .card-text {
@@ -228,7 +237,7 @@ body, html {
 
 .skill-box:hover {
     text-align: center;
-    color: #FFFFFF;
+    color: white;
 }
 
 .mini-skill-box {
