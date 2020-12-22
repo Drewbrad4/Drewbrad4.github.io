@@ -13,18 +13,18 @@ import Zoom from 'react-reveal/Zoom';
 
 const Skills = (props) => {
     const [popoverOpen, setPopoverOpen] = useState(false);
-      
+
     const toggle = () => setPopoverOpen(!popoverOpen);
-      
+
         return (
             <div id="skills">
 
-                <h2 className="header">Skills</h2>
                 <Zoom delay={700} cascade>
                 <div className="skills-box">
+                    <h2 className="header">Skills</h2>
                     <h3 className="skill-header">Languages</h3>
                     <div className="mini-skill-box">
-                        
+
 
                         <div className="skill-box">
                             <h4 className="icon-title">JavaScript</h4>
@@ -53,9 +53,9 @@ const Skills = (props) => {
                             </Popover>
                         </div>
                     </div>
-                    
+
                     <h3 className="skill-header">Frameworks</h3>
-                    <div className="mini-skill-box"> 
+                    <div className="mini-skill-box">
 
                         <div className="skill-box">
                             <h4 className="icon-title">React</h4>
@@ -77,7 +77,7 @@ const Skills = (props) => {
                     </div>
 
                     <h3 className="skill-header">Databases</h3>
-                    <div className="mini-skill-box"> 
+                    <div className="mini-skill-box">
 
                         <div className="skill-box">
                             <h4 className="icon-title">PostgreSQL</h4>
@@ -91,7 +91,7 @@ const Skills = (props) => {
                     </div>
 
                     <h3 className="skill-header">Testing</h3>
-                    <div className="mini-skill-box"> 
+                    <div className="mini-skill-box">
 
                         <div className="skill-box">
                             <h4 className="icon-title">Jest</h4>
@@ -113,7 +113,7 @@ const Skills = (props) => {
                     </div>
 
                     <h3 className="skill-header">Version Control</h3>
-                    <div className="mini-skill-box"> 
+                    <div className="mini-skill-box">
 
                         <div className="skill-box">
                             <h4 className="icon-title">Git</h4>
@@ -132,6 +132,5 @@ const Skills = (props) => {
 
   export default Skills;
 
-  
-  
-  
+
+

@@ -29,9 +29,9 @@ export default class App extends Component{
   render(){
     return (
       <div className = "app">
-        
+
         <Title />
-        
+
         <Navbar />
 
         <Zoom duration={1200} delay={200}>
@@ -46,9 +46,7 @@ export default class App extends Component{
           < Skills />
         </Fade>
 
-        <Contact 
-        onSubmit = {this.onSubmit}
-        />
+        <Contact onSubmit={this.onSubmit}/>
       </div>
     );
   }

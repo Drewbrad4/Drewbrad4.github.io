@@ -1,6 +1,8 @@
 .app {
-    background: radial-gradient(circle, rgba(53,53,53,1) 0%, rgba(34,33,33,1) 100%);
+    /* background: radial-gradient(circle, rgba(53,53,53,1) 0%, rgba(34,33,33,1) 100%); */
+    background-color: #FFFAFA;
     font-family: 'Raleway', sans-serif;
+    padding-bottom: 1.5rem;
 }
 
 body, html {
@@ -40,7 +42,11 @@ body, html {
     align-items: center;
     flex-direction: column;
     margin: 15%;
+    background-color: #50514F;
     text-shadow: 2px 2px 2px black;
+    padding: 3rem 2rem 3rem 2rem;
+    border-radius: 1.2rem;
+    box-shadow: -3px -3px #2C3539;
 }
 
 .title {
@@ -79,7 +85,8 @@ body, html {
     background-color: rgba(70, 70, 70, 0.8);
     padding: 4.2rem;
     border-radius: 1rem;
-    box-shadow: -3px -3px #284B63;
+    box-shadow: -3px -3px#2C3539;
+    background-color: #247BA0;
 }
 
 .text-box {
@@ -99,8 +106,8 @@ body, html {
     width: 70%;
     height: 55%;
     margin-top: 125px;
-    border-radius: 15px; 
-    box-shadow: 5px 5px 5px #3C6E71;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #2C3539;
 }
 
 .mini-icon {
@@ -137,6 +144,7 @@ body, html {
     font-size: 2.2rem;
     padding: 0.6rem;
     transition: 1.5s;
+    background-color: #2C3539;
 }
 
 #resumeButton:hover {
@@ -155,6 +163,14 @@ body, html {
 }
 
 /********************************************** PROJECTS CSS */
+#projects {
+    background-color: #70C1B3;
+    padding: 3rem 0 3rem 0;
+    margin: 0 3rem 0 3rem;
+    border-radius: 1rem;
+    box-shadow: -3px -3px#2C3539;
+}
+
 
 .header {
     text-align: center;
@@ -168,7 +184,7 @@ body, html {
     min-height: 425px;
     height: 50vh;
     margin: 1.5rem;
-    box-shadow: 5px 5px 5px #3C6E71;
+    box-shadow: 5px 5px 5px #2C3539;
 }
 
 .card-img {
@@ -215,6 +231,7 @@ body, html {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 4rem;
 }
 
 
@@ -223,11 +240,11 @@ body, html {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #707070;
+    background-color: #FFE066;
     width: 75vw;
     padding: 1.5rem;
     border-radius: 1.2rem;
-    box-shadow: -3px -3px #284B63;
+    box-shadow: -3px -3px #2C3539;
 }
 
 .skill-box {
@@ -236,17 +253,19 @@ body, html {
 }
 
 .skill-box:hover {
-    text-align: center;
-    color: white;
+    transform: scale(1.1);
 }
 
 .mini-skill-box {
     display: flex;
+    background-color: #FFFAFA;
+    border-radius: 1.2rem;
+    padding: 1rem;
 }
 
 .skill-header {
     text-align: center;
-    color: white;
+    color: #2C3539;
     font-size: 2.2rem;
     margin: 1.5rem;
 }
@@ -265,6 +284,14 @@ body, html {
 /********************************************** CONTACT CSS */
 #contact {
     text-align: center;
+    background-color: #F25F5C;
+    margin: 5rem 8rem 0rem 8rem;
+    padding: 3rem 0 3rem 0;
+    border-radius: 1.2rem;
+    box-shadow: -3px -3px #2C3539;
+}
+
+#contact-header {
     color: white;
 }
 
@@ -294,6 +321,7 @@ label {
 #contactButton {
     font-size: 1.6rem;
     padding: 0.6rem;
+    background-color: #2C3539;
 }
 
 /********************************************** RESPONSIVITY */
@@ -303,11 +331,11 @@ label {
     #title {
         font-size: 4.8rem;
     }
-    
+
     #descrip {
         font-size: 2.8rem;
     }
-    
+
     .link {
         font-size: 1.8rem;
     }
@@ -337,15 +365,15 @@ label {
     .card-img {
         height: 235px;
     }
-  
+
     .card-title {
       font-size: 1.2rem;
     }
-  
+
     .card-subtitle {
         font-size: 1rem;
     }
-  
+
     .card-text {
         margin-top: 1rem;
         font-size: 0.9rem;
@@ -355,7 +383,7 @@ label {
         width: 50vw;
         height: 20vh;
     }
-    
+
     #name, #email {
         width: 25vw;
         height: 5vh;
@@ -367,11 +395,11 @@ label {
     #title {
         font-size: 4.8rem;
     }
-    
+
     #descrip {
         font-size: 2.8rem;
     }
-    
+
     .link {
         font-size: 1.8rem;
     }
@@ -397,15 +425,15 @@ label {
     .card-img {
         height: 235px;
     }
-  
+
     .card-title {
       font-size: 1.2rem;
     }
-  
+
     .card-subtitle {
         font-size: 0.6rem;
     }
-  
+
     .card-text {
         margin-top: 1rem;
         font-size: 0.9rem;
@@ -415,7 +443,7 @@ label {
         width: 50vw;
         height: 20vh;
     }
-    
+
     #name, #email {
         width: 25vw;
         height: 5vh;
@@ -427,11 +455,11 @@ label {
     #title {
         font-size: 3rem;
     }
-    
+
     #descrip {
         font-size: 1.6rem;
     }
-    
+
     .link {
         font-size: 1rem;
         width: 62px;
@@ -474,15 +502,15 @@ label {
     .card-img {
         height: 235px;
     }
-  
+
     .card-title {
       font-size: 1.2rem;
     }
-  
+
     .card-subtitle {
         font-size: 0.6rem;
     }
-  
+
     .card-text {
         margin-top: 1rem;
         font-size: 0.9rem;
@@ -496,7 +524,7 @@ label {
         width: 65vw;
         height: 20vh;
     }
-    
+
     #name, #email {
         width: 45vw;
         height: 5vh;
