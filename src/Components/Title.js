@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Bounce from 'react-reveal/Bounce';
 import Flip from 'react-reveal/Flip';
 
-export default class TitleBox extends Component{
+export default class Title extends Component{
     render(){
         return (
             <div className="title">
