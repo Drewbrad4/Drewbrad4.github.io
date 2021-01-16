@@ -7,6 +7,7 @@ import JSDrum from "../Assets/JS-Drum-Kit img.png"
 import PartyPlanner from "../Assets/PartyPlanner.png"
 import TicTacToe from "../Assets/TicTacToe.png"
 import MovieSearch from "../Assets/MovieSearch.png"
+import Pagelender from "../Assets/Pagelender Screenshot.png"
 
 const Projects = (props) => {
     return (
@@ -14,7 +15,18 @@ const Projects = (props) => {
 
         <h2 className="header">Projects</h2>
 
-        <div className="card-box">    
+        <div className="card-box">
+
+            <Card>
+                <a href="https://pagelender.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                    <CardImg src={Pagelender} alt="Pagelender image" />
+                </a>
+                <CardBody>
+                <CardTitle><a className="card-title-link" href="https://github.com/Entertainment1080/pagelender" target="_blank" rel="noopener noreferrer">Movie Search</a></CardTitle>
+                <CardSubtitle><Badge color="info">React</Badge><Badge color="info">Rails</Badge><Badge color="info">JS</Badge><Badge color="info">Reactstrap</Badge><a href="https://github.com/Entertainment1080/pagelender" target="_blank" rel="noopener noreferrer"><Badge className="sizing float-right">View Repo</Badge></a></CardSubtitle>
+                <CardText>Pagelender is a prototype for a local book lending platform. Please check the README in the repo for info on using a seed login. Created by David Kim, Drew Bradford, and Joel Poirier. </CardText>
+                </CardBody>
+            </Card>
 
             <Card>
                 <a href="https://drewbrad4.github.io/MovieSearch/" target="_blank" rel="noopener noreferrer">
@@ -83,8 +95,8 @@ const Projects = (props) => {
             </Card>
 
         </div>
-    </div>    
+    </div>
     );
   };
-  
+
   export default Projects;

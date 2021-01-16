@@ -9,6 +9,7 @@ import Jest from "../Assets/jest.png";
 import RSpec from "../Assets/rspec_icon.png";
 import PostgreSQL from "../Assets/postgresql.png";
 import Git from "../Assets/Git_icon.png";
+import Detox from '../Assets/DetoxLogo.png'
 import Zoom from 'react-reveal/Zoom';
 
 const Skills = (props) => {
@@ -110,6 +111,15 @@ const Skills = (props) => {
                                 <PopoverBody>Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</PopoverBody>
                             </Popover>
                         </div>
+
+                        <div className="skill-box">
+                            <h4 className="icon-title">Detox</h4>
+                            <img id="Popover9" className="icon-special" src={Detox} alt="Detox Logo"/>
+                            <Popover placement="bottom" isOpen={popoverOpen} target="Popover8" toggle={toggle} trigger="focus">
+                                <PopoverHeader>RSpec</PopoverHeader>
+                                <PopoverBody>Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</PopoverBody>
+                            </Popover>
+                        </div>
                     </div>
 
                     <h3 className="skill-header">Version Control</h3>
@@ -117,7 +127,7 @@ const Skills = (props) => {
 
                         <div className="skill-box">
                             <h4 className="icon-title">Git</h4>
-                            <img id="Popover7" className="icon-special" src={Git} alt="Git Logo"/>
+                            <img id="Popover10" className="icon-special" src={Git} alt="Git Logo"/>
                             <Popover placement="bottom" isOpen={popoverOpen} target="Popover7" toggle={toggle} trigger="focus">
                                 <PopoverHeader>Git</PopoverHeader>
                                 <PopoverBody>Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</PopoverBody>
