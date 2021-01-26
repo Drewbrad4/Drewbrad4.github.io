@@ -1,21 +1,20 @@
 import React, { Component } from 'react';
 import Resume from "./Resume";
 import Headshot from "../Assets/Drew Headshot.jpg";
-import Github from "../Assets/GitHub_Logo_White.png";
-import LinkedIn from '../Assets/LI-In-Bug.png'
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedin, faGithubSquare } from '@fortawesome/free-brands-svg-icons'
 
 export default class AboutMe extends Component{
     render(){
         return (
             <div id="about">
-                <div>
+                <div class="headshot-box">
 
                     <img className="headshot" src={Headshot} alt="Drew Bradford Headshot"/>
 
                     <div className="mini-links">
-                        <a href="https://www.linkedin.com/in/drewbrad4" target="_blank" rel="noopener noreferrer"><img className="mini-icon" src={LinkedIn} alt="LinkedIn Icon"/></a>
-                        <a href="https://github.com/Drewbrad4" target="_blank" rel="noopener noreferrer"><img className="github-icon" src={Github} alt="Github"/></a>
+                        <a href="https://www.linkedin.com/in/drewbrad4" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} size="5x" className="mini-links" /></a>
+                        <a href="https://github.com/Drewbrad4" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithubSquare} size="5x" className="mini-links" /></a>
                     </div>
                 </div>
                 <div className="text-box">

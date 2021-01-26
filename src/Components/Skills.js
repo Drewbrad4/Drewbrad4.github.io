@@ -30,28 +30,16 @@ const Skills = (props) => {
                         <div className="skill-box">
                             <h4 className="icon-title">JavaScript</h4>
                             <img id="Popover1" className="icon" src={JS} alt="JavaScript Icon"/>
-                            <Popover placement="bottom" isOpen={popoverOpen} target="Popover1" toggle={toggle} trigger="focus">
-                                <PopoverHeader>JavaScript</PopoverHeader>
-                                <PopoverBody>Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</PopoverBody>
-                            </Popover>
                         </div>
 
                         <div className="skill-box">
                             <h4 className="icon-title">Ruby</h4>
                             <img id="Popover2" className="icon-special" src={Ruby} alt="Ruby Icon"/>
-                            <Popover placement="bottom" isOpen={popoverOpen} target="Popover2" toggle={toggle} trigger="focus">
-                                <PopoverHeader>Ruby</PopoverHeader>
-                                <PopoverBody>Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</PopoverBody>
-                            </Popover>
                         </div>
 
                         <div className="skill-box">
                             <h4 className="icon-title">HTML & CSS</h4>
                             <img id="Popover3" className="icon" src={HTML} alt="HTML Icon"/>
-                            <Popover placement="bottom" isOpen={popoverOpen} target="Popover3" toggle={toggle} trigger="focus">
-                                <PopoverHeader>HTML & CSS</PopoverHeader>
-                                <PopoverBody>Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</PopoverBody>
-                            </Popover>
                         </div>
                     </div>
 
@@ -61,19 +49,11 @@ const Skills = (props) => {
                         <div className="skill-box">
                             <h4 className="icon-title">React</h4>
                             <img id="Popover4" className="icon" src={JSReact} alt="JavaScript React Logo"/>
-                            <Popover placement="bottom" isOpen={popoverOpen} target="Popover4" toggle={toggle} trigger="focus">
-                                <PopoverHeader>React</PopoverHeader>
-                                <PopoverBody>Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</PopoverBody>
-                            </Popover>
                         </div>
 
                         <div className="skill-box">
                             <h4 className="icon-title">Rails</h4>
                             <img id="Popover5" className="icon-special" src={Rails} alt="Rails Icon"/>
-                            <Popover placement="bottom" isOpen={popoverOpen} target="Popover5" toggle={toggle} trigger="focus">
-                                <PopoverHeader>Rails</PopoverHeader>
-                                <PopoverBody>Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</PopoverBody>
-                            </Popover>
                         </div>
                     </div>
 
@@ -83,10 +63,6 @@ const Skills = (props) => {
                         <div className="skill-box">
                             <h4 className="icon-title">PostgreSQL</h4>
                             <img id="Popover6" className="icon-special" src={PostgreSQL} alt="PostgreSQL Logo"/>
-                            <Popover placement="bottom" isOpen={popoverOpen} target="Popover6" toggle={toggle} trigger="focus">
-                                <PopoverHeader>PostgreSQL</PopoverHeader>
-                                <PopoverBody>Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</PopoverBody>
-                            </Popover>
                         </div>
 
                     </div>
@@ -106,19 +82,11 @@ const Skills = (props) => {
                         <div className="skill-box">
                             <h4 className="icon-title">Rspec</h4>
                             <img id="Popover8" className="icon-special" src={RSpec} alt="RSpec Logo"/>
-                            <Popover placement="bottom" isOpen={popoverOpen} target="Popover8" toggle={toggle} trigger="focus">
-                                <PopoverHeader>RSpec</PopoverHeader>
-                                <PopoverBody>Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</PopoverBody>
-                            </Popover>
                         </div>
 
                         <div className="skill-box">
                             <h4 className="icon-title">Detox</h4>
                             <img id="Popover9" className="icon-special" src={Detox} alt="Detox Logo"/>
-                            <Popover placement="bottom" isOpen={popoverOpen} target="Popover8" toggle={toggle} trigger="focus">
-                                <PopoverHeader>RSpec</PopoverHeader>
-                                <PopoverBody>Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</PopoverBody>
-                            </Popover>
                         </div>
                     </div>
 
@@ -128,10 +96,6 @@ const Skills = (props) => {
                         <div className="skill-box">
                             <h4 className="icon-title">Git</h4>
                             <img id="Popover10" className="icon-special" src={Git} alt="Git Logo"/>
-                            <Popover placement="bottom" isOpen={popoverOpen} target="Popover7" toggle={toggle} trigger="focus">
-                                <PopoverHeader>Git</PopoverHeader>
-                                <PopoverBody>Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</PopoverBody>
-                            </Popover>
                         </div>
                     </div>
                 </div>
