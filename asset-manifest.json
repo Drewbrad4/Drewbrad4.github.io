@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.21b8a4b3.chunk.css",
-    "main.js": "/static/js/main.2cfc22e4.chunk.js",
-    "main.js.map": "/static/js/main.2cfc22e4.chunk.js.map",
+    "main.css": "/static/css/main.73ee2b8f.chunk.css",
+    "main.js": "/static/js/main.67f71c1c.chunk.js",
+    "main.js.map": "/static/js/main.67f71c1c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a33836f9.js",
     "runtime-main.js.map": "/static/js/runtime-main.a33836f9.js.map",
     "static/css/2.8943d9a7.chunk.css": "/static/css/2.8943d9a7.chunk.css",
-    "static/js/2.bcb8ab9a.chunk.js": "/static/js/2.bcb8ab9a.chunk.js",
-    "static/js/2.bcb8ab9a.chunk.js.map": "/static/js/2.bcb8ab9a.chunk.js.map",
+    "static/js/2.7d47f95c.chunk.js": "/static/js/2.7d47f95c.chunk.js",
+    "static/js/2.7d47f95c.chunk.js.map": "/static/js/2.7d47f95c.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.8943d9a7.chunk.css.map": "/static/css/2.8943d9a7.chunk.css.map",
-    "static/css/main.21b8a4b3.chunk.css.map": "/static/css/main.21b8a4b3.chunk.css.map",
-    "static/js/2.bcb8ab9a.chunk.js.LICENSE.txt": "/static/js/2.bcb8ab9a.chunk.js.LICENSE.txt",
+    "static/css/main.73ee2b8f.chunk.css.map": "/static/css/main.73ee2b8f.chunk.css.map",
+    "static/js/2.7d47f95c.chunk.js.LICENSE.txt": "/static/js/2.7d47f95c.chunk.js.LICENSE.txt",
+    "static/media/DetoxLogo.9ab89f3d.png": "/static/media/DetoxLogo.9ab89f3d.png",
     "static/media/Drew Bradford Resume.1540a24d.pdf": "/static/media/Drew Bradford Resume.1540a24d.pdf",
     "static/media/Drew Headshot.52a71fbb.jpg": "/static/media/Drew Headshot.52a71fbb.jpg",
-    "static/media/GitHub_Logo_White.6149aa5c.png": "/static/media/GitHub_Logo_White.6149aa5c.png",
+    "static/media/Git_icon.9aa40f66.png": "/static/media/Git_icon.9aa40f66.png",
     "static/media/HighorLow img.24d6a8dd.png": "/static/media/HighorLow img.24d6a8dd.png",
     "static/media/JS-Drum-Kit img.56393f03.png": "/static/media/JS-Drum-Kit img.56393f03.png",
-    "static/media/Octocat.363cb5ed.png": "/static/media/Octocat.363cb5ed.png",
+    "static/media/MovieSearch.f9a2bd49.png": "/static/media/MovieSearch.f9a2bd49.png",
+    "static/media/Pagelender Screenshot.7a28cf0a.png": "/static/media/Pagelender Screenshot.7a28cf0a.png",
     "static/media/PartyPlanner.f924f0a8.png": "/static/media/PartyPlanner.f924f0a8.png",
     "static/media/TicTacToe.eb8f5383.png": "/static/media/TicTacToe.eb8f5383.png",
     "static/media/icon_HTML.b10ea256.png": "/static/media/icon_HTML.b10ea256.png",
@@ -33,8 +35,8 @@
   "entrypoints": [
     "static/js/runtime-main.a33836f9.js",
     "static/css/2.8943d9a7.chunk.css",
-    "static/js/2.bcb8ab9a.chunk.js",
-    "static/css/main.21b8a4b3.chunk.css",
-    "static/js/main.2cfc22e4.chunk.js"
+    "static/js/2.7d47f95c.chunk.js",
+    "static/css/main.73ee2b8f.chunk.css",
+    "static/js/main.67f71c1c.chunk.js"
   ]
 }
