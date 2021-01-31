@@ -1,6 +1,8 @@
 .app {
-    background: radial-gradient(circle, rgba(53,53,53,1) 0%, rgba(34,33,33,1) 100%);
+    /* background: radial-gradient(circle, rgba(53,53,53,1) 0%, rgba(34,33,33,1) 100%); */
+    background-color: #FFFAFA;
     font-family: 'Raleway', sans-serif;
+    padding-bottom: 1.5rem;
 }
 
 body, html {
@@ -40,7 +42,11 @@ body, html {
     align-items: center;
     flex-direction: column;
     margin: 15%;
+    background-color: #50514F;
     text-shadow: 2px 2px 2px black;
+    padding: 3rem 2rem 3rem 2rem;
+    border-radius: 1.2rem;
+    box-shadow: -3px -3px #2C3539;
 }
 
 .title {
@@ -75,11 +81,13 @@ body, html {
 #about {
     display: flex;
     flex-direction: row;
-    margin: 5rem;
+    align-items: center;
+    margin: 2.5rem;
     background-color: rgba(70, 70, 70, 0.8);
     padding: 4.2rem;
     border-radius: 1rem;
-    box-shadow: -3px -3px #284B63;
+    box-shadow: -3px -3px#2C3539;
+    background-color: #247BA0;
 }
 
 .text-box {
@@ -97,35 +105,21 @@ body, html {
 
 .headshot {
     width: 70%;
+    min-width: 275px;
     height: 55%;
-    margin-top: 125px;
-    border-radius: 15px; 
-    box-shadow: 5px 5px 5px #3C6E71;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #2C3539;
 }
 
-.mini-icon {
-    width: 115px;
-    height: 85px;
-    margin: 10px;
-    margin-bottom: 5px;
-}
-
-.github-icon {
-    width: 120px;
-    height: 85px;
-    margin: 10px;
-    margin-bottom: 5px;
-}
-
-.LI-profile-badge {
-    margin: 2rem;
+.headshot-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .mini-links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 150px;
+    margin: 1rem;
+    color: #2C3539;
 }
 
 .bottom-about {
@@ -137,6 +131,7 @@ body, html {
     font-size: 2.2rem;
     padding: 0.6rem;
     transition: 1.5s;
+    background-color: #2C3539;
 }
 
 #resumeButton:hover {
@@ -155,6 +150,14 @@ body, html {
 }
 
 /********************************************** PROJECTS CSS */
+#projects {
+    background-color: #70C1B3;
+    padding: 3rem 0 3rem 0;
+    margin: 0 3rem 0 3rem;
+    border-radius: 1rem;
+    box-shadow: -3px -3px#2C3539;
+}
+
 
 .header {
     text-align: center;
@@ -165,10 +168,12 @@ body, html {
 
 .card {
     width: 24vw;
+    min-width: 300px;
     min-height: 425px;
     height: 50vh;
     margin: 1.5rem;
-    box-shadow: 5px 5px 5px #3C6E71;
+    box-shadow: 5px 5px 5px #2C3539;
+    overflow-x: scroll;
 }
 
 .card-img {
@@ -187,8 +192,17 @@ body, html {
     font-size: 1.4rem;
 }
 
+.card-title-link {
+    color: black;
+}
+
+.card-title-link:hover {
+    color: #3C6E71;
+    text-decoration: none;
+}
+
 .card-subtitle {
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .card-text {
@@ -196,7 +210,8 @@ body, html {
 }
 
 .badge {
-    margin: 0.4rem;
+    margin: 0.4rem !important;
+    padding: 0.4rem !important;
 }
 
 /********************************************** SKILLS CSS */
@@ -206,6 +221,7 @@ body, html {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 4rem;
 }
 
 
@@ -214,11 +230,11 @@ body, html {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #707070;
+    background-color: #FFE066;
     width: 75vw;
     padding: 1.5rem;
     border-radius: 1.2rem;
-    box-shadow: -3px -3px #284B63;
+    box-shadow: -3px -3px #2C3539;
 }
 
 .skill-box {
@@ -227,17 +243,20 @@ body, html {
 }
 
 .skill-box:hover {
-    text-align: center;
-    color: #FFFFFF;
+    transform: scale(1.1);
 }
 
 .mini-skill-box {
     display: flex;
+    background-color: #FFFAFA;
+    border-radius: 1.2rem;
+    padding: 1rem;
+
 }
 
 .skill-header {
     text-align: center;
-    color: white;
+    color: #2C3539;
     font-size: 2.2rem;
     margin: 1.5rem;
 }
@@ -256,6 +275,14 @@ body, html {
 /********************************************** CONTACT CSS */
 #contact {
     text-align: center;
+    background-color: #F25F5C;
+    margin: 5rem 8rem 0rem 8rem;
+    padding: 3rem 0 3rem 0;
+    border-radius: 1.2rem;
+    box-shadow: -3px -3px #2C3539;
+}
+
+#contact-header {
     color: white;
 }
 
@@ -285,6 +312,7 @@ label {
 #contactButton {
     font-size: 1.6rem;
     padding: 0.6rem;
+    background-color: #2C3539;
 }
 
 /********************************************** RESPONSIVITY */
@@ -294,59 +322,47 @@ label {
     #title {
         font-size: 4.8rem;
     }
-    
+
     #descrip {
         font-size: 2.8rem;
     }
-    
+
     .link {
         font-size: 1.8rem;
     }
 
     #about {
         flex-direction: column;
+        min-width: 315px;
     }
 
-    .mini-links {
-        margin-left: 9rem;
+    .header {
+        font-size: 3rem;
     }
 
-    .LI-simple-link {
-        text-align: left;
+    .about-text {
+        font-size: 1.5rem;
     }
 
-    .headshot {
-        margin-top: 0.5rem;
-        margin-left: 5rem;
+    .bottom-about {
+        font-size: 1.5rem;
     }
 
-    .card {
-        width: 33vw;
-        height: 45vh;
+    .text-box {
+        min-width: 275px;
     }
 
-    .card-img {
-        height: 235px;
-    }
-  
-    .card-title {
-      font-size: 1.2rem;
-    }
-  
     .card-subtitle {
-        font-size: 1rem;
-    }
-  
-    .card-text {
-        margin-top: 1rem;
         font-size: 0.9rem;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     #text {
         width: 50vw;
         height: 20vh;
     }
-    
+
     #name, #email {
         width: 25vw;
         height: 5vh;
@@ -358,26 +374,22 @@ label {
     #title {
         font-size: 4.8rem;
     }
-    
+
     #descrip {
         font-size: 2.8rem;
     }
-    
+
     .link {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 
     #about {
         flex-direction: column;
     }
 
-    .mini-links {
-        margin-left: 9rem;
-    }
-
-    .headshot {
-        margin-top: 0.5rem;
-        margin-left: 3.2rem;
+    embed {
+        width: 700px;
+        height: 700px;
     }
 
     .card {
@@ -388,41 +400,68 @@ label {
     .card-img {
         height: 235px;
     }
-  
+
     .card-title {
       font-size: 1.2rem;
     }
-  
+
     .card-subtitle {
-        font-size: 0.6rem;
+        font-size: 0.8rem;
+        display: flex;
+        flex-wrap: wrap;
     }
-  
+
     .card-text {
         margin-top: 1rem;
         font-size: 0.9rem;
+    }
+
+    .mini-skill-box {
+        max-width: 575px;
+    }
+
+    .icon-special {
+        width: 120px;
+        height: 120px;
+        margin: 1.2rem;
+    }
+
+    .icon {
+        width: 150px;
+        height: 150px;
     }
 
     #text {
         width: 50vw;
         height: 20vh;
     }
-    
+
     #name, #email {
         width: 25vw;
         height: 5vh;
     }
+
+    .form-group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
   }
 
   /* Phone Devices */
-@media only screen and (max-width : 375px) {
+@media only screen and (max-width : 480px) {
+    .title-box {
+        max-width: 385px;
+    }
+
     #title {
         font-size: 3rem;
     }
-    
+
     #descrip {
         font-size: 1.6rem;
     }
-    
+
     .link {
         font-size: 1rem;
         width: 62px;
@@ -431,30 +470,26 @@ label {
 
     #about {
         flex-direction: column;
-        width: 70vw;
+        /* width: 70vw; */
         justify-content: center;
     }
 
-    .mini-links {
-        margin-left: 3.8rem;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .headshot {
-        width: 175px;
-        margin-left: -1.7rem;
-        margin-right: 10rem;
-    }
-
     .about-text {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         width: 65vw;
+        text-align: center;
     }
 
     .bottom-about {
         width: 65vw;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
+        text-align: center;
+
+    }
+
+    embed {
+        width: 385px;
+        height: 750px;
     }
 
     .card {
@@ -462,18 +497,10 @@ label {
         height: 45vh;
     }
 
-    .card-img {
-        height: 235px;
-    }
-  
-    .card-title {
-      font-size: 1.2rem;
-    }
-  
     .card-subtitle {
-        font-size: 0.6rem;
+        font-size: 0.8rem;
     }
-  
+
     .card-text {
         margin-top: 1rem;
         font-size: 0.9rem;
@@ -483,16 +510,25 @@ label {
         flex-direction: column;
     }
 
+    #contact {
+        min-width: 80vw;
+        margin: 3rem 2rem 3rem 2rem;
+    }
+
     #text {
         width: 65vw;
         height: 20vh;
     }
-    
+
     #name, #email {
         width: 45vw;
         height: 5vh;
-        margin-left: 4rem;
+    }
 
+    .form-group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
   }
 

@@ -16,10 +16,10 @@ const ModalExample = (props) => {
   return (
     <div>
         <Fade bottom>
-            <Button id="resumeButton" color="info" onClick={toggle}>Resume</Button>
+            <Button id="resumeButton" onClick={toggle}>Resume</Button>
         </Fade>
         <Modal isOpen={modal} toggle={toggle} className={resumeButton}>
-            <embed src={ResumePDF} width="1000px" height="1000px" type="application/pdf" frameborder="0"></embed> 
+            <embed src={ResumePDF} width="1000px" height="1000px" type="application/pdf" frameborder="0"></embed>
         </Modal>
     </div>
   );
